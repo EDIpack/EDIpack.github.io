@@ -7,7 +7,7 @@
    width="400"
    height="400"
    viewBox="0 0 400 400"
-   sodipodi:docname="edipack.svg"
+   sodipodi:docname="edipack_monochrome.svg"
    inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -37,13 +37,6 @@
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g1">
-    <rect
-       style="fill:#112042;fill-opacity:1;stroke-width:3.46667;stroke-linecap:round"
-       id="rect38"
-       width="400"
-       height="400.00003"
-       x="0"
-       y="0" />
     <path
        id="rect1"
        style="fill:#f9f9f9;fill-opacity:1;stroke-width:3.46667;stroke-linecap:round"
