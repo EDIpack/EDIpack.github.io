@@ -1,58 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EDIpack GitHub Pages</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
-        }
-        a {
-            text-decoration: none;
-            color: #007bff;
-            font-size: 18px;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>EDIpack GitHub Pages</title>
+
+<!-- Font Awesome icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 { color: #333; }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li { margin: 10px 0; }
+
+/* TEXT LINKS */
+a,
+a:visited,
+a:active,
+a:focus {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* SOCIAL ICONS */
+.social-icons a,
+.social-icons a:visited,
+.social-icons a:active,
+.social-icons a:focus {
+    text-decoration: none;
+    font-size: 32px;
+    margin: 0 12px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+/* icon color handled here */
+.social-icons a i {
+    color: #333;
+    transition: color 0.2s ease;
+}
+
+/* smooth scaling */
+.social-icons a:hover {
+    transform: scale(1.15);
+}
+
+/* hover colors (applied to icon) */
+.github:hover i {
+    color: #000;
+}
+
+.pypi:hover i {
+    color: #3775A9;
+}
+
+.conda:hover i {
+    color: #44A833;
+}
+
+</style>
 </head>
+
 <body>
-    <img src="https://github.com/EDIpack.png" alt="EDIpack logo" style="display: block; margin: 0 auto 30px auto; max-width: 300px; height: auto;">
-    <h1>Welcome to EDIpack's GitHub Pages</h1>
-    
-    <a href="https://github.com/EDIpack" target="_blank">Organization GitHub Homepage</a>
- 
-     <h2>Project repositories</h2>
-    <ul>
-        <li><a href="https://github.com/EDIpack/EDIpack" target="_blank">EDIpack Fortran library</a></li>
-        <li><a href="https://github.com/EDIpack/edipack2triqs" target="_blank">EDIpack - TRIQS compatibility layer</a></li>
-        <li><a href="https://github.com/EDIpack/EDIpack2py" target="_blank">EDIpack2py Python module</a></li>
-    </ul> 
- 
-    <h2>Documentation</h2>
-    <ul>
-        <li><a href="https://edipack.github.io/EDIpack/" target="_blank">EDIpack</a></li>
-        <li><a href="https://edipack.github.io/edipack2triqs/" target="_blank">EDIpack - TRIQS compatibility layer</a></li>
-        <li><a href="https://edipack.github.io/EDIpack2py/" target="_blank">EDIpack2py Python module</a></li>
-    </ul>  
-  
-    <h2>External projects</h2>
-    <ul>
-        <li><a href="https://github.com/SciFortran" target="_blank"><strong>SciFortran</strong> scientific Fortran library</a></li>
-    </ul>
+
+<img src="https://github.com/EDIpack.png"
+alt="EDIpack logo"
+style="display:block; margin:0 auto 30px auto; max-width:300px; height:auto;">
+
+<h1>Welcome to EDIpack's GitHub Pages</h1>
+
+<!-- ICON LINKS -->
+<div class="social-icons">
+
+    <a class="github" href="https://github.com/EDIpack" target="_blank" title="EDIpack on GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a class="pypi" href="https://pypi.org/project/edipack2py/" target="_blank" title="EDIpack on PyPI">
+        <i class="fab fa-python"></i>
+    </a>
+
+    <a class="conda" href="https://anaconda.org/channels/EDIpack" target="_blank" title="EDIpack Anaconda channel">
+        <i class="fas fa-circle-notch"></i>
+    </a>
+
+</div>
+
+<h2>Project repositories</h2>
+<ul>
+    <li><a href="https://github.com/EDIpack/EDIpack" target="_blank">EDIpack Fortran library</a></li>
+    <li><a href="https://github.com/EDIpack/edipack2triqs" target="_blank">EDIpack - TRIQS compatibility layer</a></li>
+    <li><a href="https://github.com/EDIpack/EDIpack2py" target="_blank">EDIpack2py Python module</a></li>
+</ul>
+
+<h2>Documentation</h2>
+<ul>
+    <li><a href="https://edipack.github.io/EDIpack/" target="_blank">EDIpack</a></li>
+    <li><a href="https://edipack.github.io/edipack2triqs/" target="_blank">EDIpack - TRIQS compatibility layer</a></li>
+    <li><a href="https://edipack.github.io/EDIpack2py/" target="_blank">EDIpack2py Python module</a></li>
+</ul>
+
+<h2>External projects</h2>
+<ul>
+    <li><a href="https://github.com/SciFortran" target="_blank"><strong>SciFortran</strong> scientific Fortran library</a></li>
+</ul>
+
 </body>
 </html>
